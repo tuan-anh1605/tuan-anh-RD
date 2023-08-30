@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+/* yeu cau cac box khi them duong vien hoac padding thi them vao trong (inside)*/
+*{ box-sizing: border-box} 
+.col-1
+{ 
+	width: 8.33%;
+	/*border: 1px solid red; */
+	padding: 15px
+}
+.col-2
+{ 
+	width: 16.66%;
+	border: 1px solid red; 
+	padding: 15px
+}
+.col-3
+{ 
+	width: 25%;
+	border: 1px solid red; 
+	padding: 15px
+}
+.col-4
+{ 
+	width: 33.33%;
+	/*border: 1px solid red; */
+	padding: 15px
+}
+.col-5
+{ 
+	width: 41.66%;
+	/*border: 1px solid red; */
+	padding: 15px
+}
+.col-6
+{ 
+	width: 50%;
+	/*border: 1px solid red; */
+	padding: 15px
+}
+.col-7
+{ 
+	width: 58.33%;
+	/*border: 1px solid red; */
+	padding: 15px
+}
+.col-8
+{ 
+	width: 66.66%;
+	/*border: 1px solid red; */
+	padding: 15px
+}
+.col-9
+{ 
+	width: 75%;
+	border: 1px solid red; 
+	padding: 15px
+}
+.col-10
+{ 
+	width: 83.33%;
+	border: 1px solid red; 
+	padding: 15px
+}
+.col-11
+{ 
+	width: 91.66%;
+	border: 1px solid red; 
+	padding: 15px
+}
+.col-12
+{ 
+	width: 100%;
+	border: 1px solid red; 
+	padding: 15px
+}
+.row{ 
+	display: flex;
+	flex-wrap: wrap
+}
+.container
+{
+	width: 80%;
+	margin: 0 auto
+}
+/*--------- thu vien mau-nền-----------*/
+.bg-primary {	background-color: tan}
+.bg-secondary{ background-color:#F2C94C }
+.bg-white{ background: white; padding: 15px}
+/*--------- thu vien mau-chữ-----------*/
+.text-light { color: #fff}
+.text-primary{ color: #056CB6 }
+.text-secondary{ color:#F38F00 }
+/*--- style cho btn--button--*/
+.btn-primary 
+{
+	background-color: #056CB6;
+	color: white;
+	text-decoration: none; /*bỏ gạch chân*/
+	padding: 5px 15px; 
+	border: none /*không đường viền*/
+}
+.btn-primary:hover /* -- khi user đưa trỏ vào nút btn-này thì đổi màu nền*/
+{
+	background: #F38F00
+} 
+/*--------- thu vien canh gióng chữ-----------*/
+.text-right{ text-align: right}
+.text-center{ text-align: center}
+
+.img-100 { width: 100%; height: auto}
+.pl-50{ padding-left: 50px}
+.pr-50{ padding-right: 50px}
+.px-50{ padding-left: 50px; padding-right: 50px}
+
+/*-----------------dinh dang flex--------------------*/
+.d-flex{ display: flex}
+/*-----------------dinh dang flex chieu doc--------------------*/
+.align-items-start{align-items: flex-start}
+.align-items-center{align-items: center}
+.align-items-end{align-items: flex-end}
+/*-----------dinh dang flex chieu ngang--------------------------*/
+.justify-center{ justify-content: center}
+.justify-end{ justify-content:flex-end}
+.justify-between{ justify-content:space-between}
+
+.mt-50{ margin-top: 50px}
+
+
+
+
+
+
